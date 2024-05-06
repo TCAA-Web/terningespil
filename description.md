@@ -1,4 +1,4 @@
-# Lav et terningegspil
+# Lav et terningespil
 
 ### Besrkrivelse
 
