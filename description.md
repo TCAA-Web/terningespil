@@ -40,4 +40,4 @@ Der skal også være mulighed for at se de tidligere slag for henholdsvis player
 - For at holde styr på hvilke terninger spillerne har slået kan du bruge et array. Arrays kan holde en række værdier i den rigtige rækkefølge. eks: `let playerOne = [5,4,8,6] `
   Her kan du nu både tjekke det sidste tal, hvor mange gange spilleren har slået (hvis tur det er), hvilken runde spilerne er nået til, samt vise de tidligere slag.
 
-- Forsøg at skriv dine funktioner til spillet så genbrugelige som muligt. Hvis du eks. laver en funktion der tjekker om den ene spiller har slået højere end den anden, kan du med fordel lave nogle argumenter til funktionen der gør den genbrugelig til både spiller 1 og 2. Eks. `function hasPlayerWon(playerArray) // returns true or false`
+- Forsøg at skriv dine funktioner til spillet så genbrugelige som muligt. Hvis du eks. laver en funktion der tjekker om den ene spiller har slået højere end den anden, kan du med fordel lave nogle argumenter til funktionen der gør den genbrugelig til både spiller 1 og 2. Eks. `function hasPlayerWon(currentDice, previousDice) // returns true or false` istedet for `hasPlayerOneWon(), hasPlayerTwoWon()`
